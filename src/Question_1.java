@@ -32,31 +32,30 @@ public class Question_1 {
         int day = new Scanner(System.in).nextInt();
         System.out.print("Lütfen doğduğunuz ayı belirtiniz .... : ");
         int month = new Scanner(System.in).nextInt();
-        if ((month == 3 && day >= 21) || (month == 4 && day < 21)) {
+        if ((month == 3 && day >= 21) || (month == 4 && day < 21))
             System.out.println("KOÇ BURCUSUNUZ");
-        } else if ((month == 4 && day >= 21) || (month == 5 && day < 22)) {
+        else if ((month == 4 && day >= 21) || (month == 5 && day < 22))
             System.out.println("BOĞA BURCUSUNUZ");
-        } else if ((month == 5 && day >= 22) || (month == 6 && day < 23)) {
+        else if ((month == 5 && day >= 22) || (month == 6 && day < 23))
             System.out.println("İKİZLER BURCUSUNUZ");
-        } else if ((month == 6 && day >= 23) || (month == 7 && day < 23)) {
+        else if ((month == 6 && day >= 23) || (month == 7 && day < 23))
             System.out.println("YENGEÇ BURCUSUNUZ");
-        } else if ((month == 7 && day >= 23) || (month == 8 && day < 23)) {
+        else if ((month == 7 && day >= 23) || (month == 8 && day < 23))
             System.out.println("ASLAN BURCUSUNUZ");
-        } else if ((month == 8 && day >= 23) || (month == 9 && day < 23)) {
+        else if ((month == 8 && day >= 23) || (month == 9 && day < 23))
             System.out.println("BAŞAK BURCUSUNUZ");
-        } else if ((month == 9 && day >= 23) || (month == 10 && day < 23)) {
+        else if ((month == 9 && day >= 23) || (month == 10 && day < 23))
             System.out.println("TERAZİ BURCUSUNUZ");
-        } else if ((month == 10 && day >= 23) || (month == 11 && day < 22)) {
+        else if ((month == 10 && day >= 23) || (month == 11 && day < 22))
             System.out.println("AKREP BURCUSUNUZ");
-        } else if ((month == 11 && day >= 22) || (month == 12 && day < 22)) {
+        else if ((month == 11 && day >= 22) || (month == 12 && day < 22))
             System.out.println("YAY BURCUSUNUZ");
-        } else if ((month == 12 && day >= 22) || (month == 1 && day < 22)) {
+        else if ((month == 12 && day >= 22) || (month == 1 && day < 22))
             System.out.println("OĞLAK BURCUSUNUZ");
-        } else if ((month == 1 && day >= 22) || (month == 2 && day < 20)) {
+        else if ((month == 1 && day >= 22) || (month == 2 && day < 20))
             System.out.println("KOVA BURCUSUNUZ");
-        } else if ((month == 2 && day >= 20) || (month == 3 && day < 21)) {
+        else if ((month == 2 && day >= 20) || (month == 3 && day < 21))
             System.out.println("BALIK BURCUSUNUZ");
-        }
 
     }
 

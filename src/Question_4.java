@@ -8,18 +8,18 @@ public class Question_4 {
          */
         System.out.print("Lütfen bir sayi giriniz ... : ");
         int number = new Scanner(System.in).nextInt();
-        boolean isAsal = true;
+        boolean isPrime = true;
         if (number == 1) {
             System.out.println("1 asal bir sayı değildir.");
         } else {
             for (int i = 2; i <= number; i++) {
                 if (number % i == 0) {
-                    isAsal = false;
+                    isPrime = false;
                 } else {
-                    isAsal = true;
+                    isPrime = true;
                 }
             }
-            if (isAsal) System.out.println(number + " asal bir sayıdır.");
+            if (isPrime) System.out.println(number + " asal bir sayıdır.");
             else System.out.println(number + " asal bir sayı değildir.");
         }
     }
